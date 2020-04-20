@@ -1,0 +1,137 @@
+body{
+    background-image: url("../images/image7.jpg");
+    background-size: cover;
+}
+.col-sm-3{
+    margin-top:70px ;
+    animation:fadeIn 3000ms ease-in-out;
+    
+}
+
+.col-sm-6:hover{
+    cursor:pointer;
+    animation:pulse 1000ms ;
+}
+@keyframes pulse{
+    from{
+        transform:scale(1.09);
+    }
+    to{
+        transform: scale(.95);
+    }
+}
+
+.list{
+ 
+    list-style-type: none;
+}
+.list li{
+    padding-top: 40px;
+
+}
+.col-sm-6{
+    margin-top: 100px;
+   
+}
+
+  .bio-header{
+      text-align: center;
+      padding-top: 20px;
+  }
+  .col-sm-7{
+      margin-top: 70px;
+      margin-left: 120px;
+  }
+  .col-md-3{
+      margin-top: 70px;
+      margin-left: 70px;
+      animation:fadeIn 3000ms ease-in-out;
+  }
+
+  
+  .col-lg-12{
+      margin-top: 10%;
+  }
+  .top_button{
+    padding:30px;
+
+    float:right;
+
+}
+.carousel-inner img {
+   
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; 
+    margin: auto;
+    animation:fadeIn 3000ms ease-in-out;
+  }
+  
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  footer {
+    margin-top:20%;
+    left: 0;
+    right:0;
+  
+    width: 100%;
+    text-align: center;
+    color:white;
+
+    font-size: 20px;
+    background-color:black;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+  }
+  .social_links{
+      float: left;
+  }
+  .social_links li{
+      padding:10px;
+    display:inline-block;
+    
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa {
+    
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 30%;
+  }
+ .fa-twitter {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #3B5998;
+    color: white;
+  }
+  #carrer_container{
+    margin-top: 5%;
+    background-color:lightseagreen;
+    padding-top:60px;
+    padding-bottom: 100px;
+  }
+  .col-sm-4{
+    text-align: center;
+  }
+  .nav li:hover{
+  background-color: grey;
+    transform: scale(1.25)
+}
+.navbar-brand:hover{
+ 
+    transform: scale(1.25)
+}
+.col-sm-3 li{
+  font-size: 150%;
+ 
+}

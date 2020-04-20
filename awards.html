@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel=stylesheet href="css/body.css">
+    <link rel=stylesheet href="css/layout.css">
+    <script>
+       window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+  </head>
+  <body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Sachin tendulkar</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">The Person <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="bio.html">Bio</a></li>
+                              <li><a href="pictures.html">Pictures</a></li>
+                              <li><a href="books.html">Books</a></li>
+                             
+                          </ul>
+                      </li>
+                  
+                    <!-- <li class="active"><a href="#">About</a></li> -->
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="career.html">career</a></li>
+                 
+                  </ul>
+                  <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search" name="search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                </div>
+              </nav>
+              <div class="col-sm-12 text-center ">
+                    <h2><strong>Awards</strong></h2>
+
+                </div>
+                <div class="container-fluid">
+                        <div class="row">
+                                <div class="col-md-3"  >
+                    
+                        <img  src="images/bharat.jpg" width="300" height="300">
+                                </div>
+                                <div class="col-sm-7">
+                        <h2>
+                                Sachin Tendulkar wins top India honour – Bharat Ratna
+
+                        </h2>
+                        <p>India's cricket star Sachin Tendulkar has been awarded the country's highest civilian honour, the Bharat Ratna. The award was announced hours after Tendulkar retired from international cricket following India's victory over the West Indies in a Test in Mumbai. Tendulkar is the first sportsman to win the award and - at 40 - the youngest age..</p>
+                    </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-3"  >
+                
+                    <img src="images/bhushan.jpg" width="300" height="300">
+                            </div>
+                            <div class="col-sm-7">
+                    <h2>
+                            Tendulkar awarded ‘Maharashtra Bhushan’
+
+                    </h2>
+                    <p>Batting maestro Sachin Tendulkar and I T wizard Dr Vijay Bhatkar were conferred with 'Maharashtra Bhushan Puruskar', Maharashtra's highest civilian award in Mumbai on Tuesday. Tendulkar, became the youngest recepient at the age of 28, when he received the award for the year 2000-01, from the Chief Minister Vilasrao Deshmukh</p>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-3"  >
+            
+                <img src="images/third.jpg" width="300" height="300">
+                        </div>
+                        <div class="col-sm-7">
+                <h2>
+                        Tendulkar wins Coopers & Lybrand Award/CricInfo Survey
+
+                </h2>
+                <p>Coopers & Lybrand announced that Sachin Tendulkar of India has won the Coopers & Lybrand award as the International Test player of the year. He was chosen by the Coopers & Lybrand panel as the top Test performer of the last twelve months</p>
+                </div>
+            </div>
+                </div>
+                <footer >
+                  <div>
+                            
+                    <p> &copy; <strong>2019</strong> All Rights Reserved</p>
+                  </div>
+                  <div class="social_links">
+                   
+                    <ul>
+                      
+                      <li>connect Sachin on </li>
+                      <li><a href="#" class="fa fa-facebook"></a></li>
+                     <li> <a href="#" class="fa fa-twitter"></a></li>
+                     <li><a href="#" class="fa fa-youtube"></a></li>
+                    </ul>
+                  </div>
+                  <div class="top_button">
+                      <button type="button" class="btn btn-success btn-lg" onclick="topFunction()" id="myBtn"   title="Go to top">Top</button>
+                  </div>
+                    </footer>      
+            
+                    
+  </body>
+  </html>
